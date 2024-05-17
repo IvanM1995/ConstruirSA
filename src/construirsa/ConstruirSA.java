@@ -75,13 +75,13 @@ public class ConstruirSA {
 //           }
 //           con.close();
 
-        String sql = "UPDATE empleado SET estado = false WHERE dni = 321343212";
-             PreparedStatement ps = con.prepareStatement(sql);
-             int fila = ps.executeUpdate();
-             if(fila>0){
-                 System.out.println("Empleado dado de baja con exito");
-             }
-             con.close();
+//        String sql = "UPDATE empleado SET estado = false WHERE dni = 321343212";
+//             PreparedStatement ps = con.prepareStatement(sql);
+//             int fila = ps.executeUpdate();
+//             if(fila>0){
+//                 System.out.println("Empleado dado de baja con exito");
+//             }
+//             con.close();
         
              
         }catch(ClassNotFoundException ex){
